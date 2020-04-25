@@ -77,3 +77,8 @@ Say the user wants to read tafsir of Imam Al-Razi for surah 2 verse 10. The cont
 
 This is the entry for sura 2. It is saying that verses 1 to 33 are in file `alrazy_002_01.xml` and verses 34 to 64 are in `alrazy_002_02.xml` etc. This json map is generated when the tafsir is published and is stored in `surah_map.json` in the tafsir directory i.e. `./content/alrazy/`.
 
+## Finding The Right verse-tafsir div
+Once you know the file you want, you can open it with your favorite HTML/XHTML parser to look for the `<div class="verse-tafsir">` for the desired verse. You can do this by looping through all `<div class="verse-tafsir">` elements and checking their `data-verse="2:1"` attributes to find the one that contains the verse you are looking for. You can then show this entire `div` to the user. Note that some tafsirs don't have each verse tafsir broken out separately because some verses belong together and should be understood together.
+
+## Typos and Errors
+These tafsirs were manually typed and reviewed but it's not possible to catch all typos and errors. If you see an error please fix it and send a PR. Thank you!
