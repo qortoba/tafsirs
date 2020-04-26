@@ -1,4 +1,4 @@
-# Tafsirs
+# Quran Tafsirs
 Quran tafsirs in HTML format. Available to use in any app/website.
 
 ## Tafsir File Format
