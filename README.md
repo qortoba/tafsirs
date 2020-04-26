@@ -84,4 +84,4 @@ Once you know the file you want, you can open it with your favorite HTML/XHTML p
 These tafsirs were manually typed and reviewed but it's not possible to catch all typos and errors. If you see an error please fix it and send a PR. Thank you!
 
 # Tafsir Index
-See [this readme](./content/README.md) for a list of available
+See [this readme](/blob/master/content/README.md) for a list of available
